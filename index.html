@@ -177,16 +177,29 @@
             <p>Made with<i class="fa-solid fa-heart"></i>by Easy Tutorials</p>
     </section>
 
+<!-- Inquiry Button -->
+<div class="inquiry-wrapper">
+  <button onclick="openPopup()" class="inquiry-btn">Enquire Now</button>
+</div>
 
-    <!-- <script>
-        let navLinks = document.getElementById("navLinks");
-        function showMenu() {
-            navLinks.style.right = "0";
-        }
-        function hideMenu() {
-            navLinks.style.right = "-200px";
-        }
-    </script> -->
+<!-- Inquiry Popup -->
+<div id="popup" class="popup-container">
+  <div class="popup-box">
+    <h2>Inquiry Form</h2>
+    <form id="inquiryForm" onsubmit="submitForm(event)">
+      <input type="email" id="email" placeholder="Your Email" required />
+      <input type="tel" id="phone" placeholder="Your Phone Number" required />
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+    <p id="thankYouMessage" style="display:none; color: green; margin-top: 10px;">
+      Thank you! We'll contact you soon.
+    </p>
+    <button onclick="closePopup()" class="close-btn">Close</button>
+  </div>
+</div>
+
+
+
     <script src="script.js"></script>
 </body>
 </html>
