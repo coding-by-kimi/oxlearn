@@ -1,30 +1,49 @@
-# 🎓 Oxford University Website Clone
+# 🎓 OxLearn – Educational Website (Oxford Inspired)
 
-A responsive front-end clone of the Oxford University website using **HTML**, **CSS**, and **JavaScript**.
-
-🔗 **Live Demo:** [Click Here](https://coding-by-kimi.github.io/oxford-clone/)
+OxLearn is a modern, responsive educational website inspired by the style of Oxford University. Built using **HTML, CSS, and JavaScript**, this project showcases essential frontend skills and includes multiple pages and a working inquiry popup form.
 
 ---
 
-## 🛠️ Tech Stack
+## 🔗 Live Preview
+
+🌐 [Visit Website](https://coding-by-kimi.github.io/oxlearn/)
+
+---
+
+## 📁 Pages Included
+
+- 🏠 Home (`index.html`)
+- 📚 Courses (`course.html`)
+- 📞 Contact (`contact.html`)
+- 🧑‍🏫 About (`about.html`)
+- 📰 Blog (`blog.html`)
+
+---
+
+## ✨ Features
+
+- ✅ Fully Responsive Design
+- ✅ Multi-Page Layout using HTML
+- ✅ Inquiry Popup Form with Email and Phone Input
+- ✅ Clean and organized folder structure
+
+---
+
+## ⚙️ Technologies Used
 
 - HTML5  
 - CSS3  
-- JavaScript (Vanilla)  
-- Git & GitHub
+- JavaScript
 
 ---
 
-## 💡 Features
+## 📬 Inquiry Form Demo
 
-- Multi-page layout: Home, About, Courses, Blog, Contact  
-- Responsive design (mobile, tablet, desktop)  
-- Smooth scrolling & interactive navigation
+Includes a popup form that collects:
+- 📧 Email
+- 📱 Phone number  
+And shows a **"Thank you"** message on submission.
 
 ---
 
-## 📁 Getting Started
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/coding-by-kimi/oxford-clone.git
+## 📦 Folder Structure
